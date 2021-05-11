@@ -1,0 +1,57 @@
+/* General Formatting, with list elements hugging their numbers/bullets */
+* {
+  color: #fff;
+  box-sizing: border-box;
+  list-style-position: inside;
+  text-align: center;
+  font-family: Avenir;
+}
+
+body {
+  background-color: #191970;
+}
+
+/* Button formatting to create purple buttons for nav links */
+.button {
+  background-color: #483D8B;
+  color: #fff;
+  padding: 10px 10px;
+  margin: 5px 10px;
+  border-radius: 400px;
+  text-decoration:none;
+}
+
+/* Makes the color of the button link text blend with the backgronud */
+a:active {
+  color: #483D8B;
+}
+
+/* Adds extra padding to specific elements that needed it */
+header, article, h2, footer, .space {
+  padding: 20px;
+}
+
+/* Creates circular images */
+img {
+  border-radius: 200px;
+}
+
+/* Formatting to allow for the footer information to be aligned properly */
+footer img {
+  float: left;
+}
+/* Removes bullets and allows for the image links to display properly */
+footer ul {
+  display: flex;
+  list-style-type: none;
+}
+
+/* General alignment pseudo-classes used at different parts of the webpage */
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+  padding: 5px;
+}
