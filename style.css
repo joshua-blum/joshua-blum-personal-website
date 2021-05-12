@@ -10,6 +10,10 @@
 body {
   background-color: #191970;
 }
+/* Formatting subheader to be slightly larger than h1 */
+h2 {
+  font-size: 35px;
+}
 
 /* Button formatting to create purple buttons for nav links */
 .button {
@@ -54,4 +58,16 @@ footer ul {
 .align-right {
   text-align: right;
   padding: 5px;
+}
+
+.profile-img{
+  float: right;
+}
+
+/* Formatting the horizontal rules */
+hr {
+  height: 1%;
+  width: 15%;
+  border-style: solid;
+  margin: 30px auto;
 }
